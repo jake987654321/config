@@ -1,5 +1,4 @@
 
-set termguicolors
 
 """ Vim settings
 set hidden
@@ -45,8 +44,11 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
 """ Colors 
+set termguicolors
+syntax on
+
 " set t_Co=256
-" syntax on
 " colorscheme minimalist
+
 set background=dark
 autocmd vimenter * ++nested colorscheme gruvbox
