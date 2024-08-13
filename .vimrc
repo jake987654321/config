@@ -1,3 +1,6 @@
+
+set termguicolors
+
 """ Vim settings
 set hidden
 set confirm
@@ -33,6 +36,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'dikiaap/minimalist'
+Plugin 'morhetz/gruvbox'
 call vundle#end()
 filetype plugin indent on
 
@@ -41,6 +45,8 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
 """ Colors 
-set t_Co=256
-syntax on
-colorscheme minimalist
+" set t_Co=256
+" syntax on
+" colorscheme minimalist
+set background=dark
+autocmd vimenter * ++nested colorscheme gruvbox
