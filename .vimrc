@@ -1,6 +1,7 @@
 
 
-""" Vim settings
+""" Vim settings; try :help options for more info
+set nowrap
 set hidden
 set confirm
 set expandtab
@@ -10,6 +11,7 @@ set hlsearch
 set incsearch
 set number
 set colorcolumn=80
+set ttymouse=sgr
 set mouse=a
 set clipboard=unnamedplus
 set visualbell
@@ -44,11 +46,10 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
 """ Colors 
-set termguicolors
 syntax on
+set termguicolors
 
 " set t_Co=256
 " colorscheme minimalist
-
 set background=dark
 autocmd vimenter * ++nested colorscheme gruvbox
