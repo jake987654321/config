@@ -1,7 +1,10 @@
 # Config
 Contains my config for apps I use (Vim and Tmux) and some helpful scripts. 
 
-Install vim-gtk3 to enable clipboard support.
+sudo apt update
+
+# Install vim-gtk3 / xclip / powerline to enable clipboard support.
+sudo apt install vim-gtk3 xclip powerline
 
 # TODO
 - Write a script which will copy this config (.tmux.conf and .vimrc) into ~/
