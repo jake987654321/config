@@ -1,4 +1,2 @@
 
-return {
-    'https://tpope.io/vim/fugitive.git'
-}
+return {'https://tpope.io/vim/fugitive.git'}

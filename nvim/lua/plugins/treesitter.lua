@@ -43,5 +43,4 @@ return {
         cmd = 'TSPlaygroundToggle', 
         opts = {},
     },
-
 }
