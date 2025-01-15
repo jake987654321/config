@@ -10,17 +10,17 @@ return {
                 follow = true,
             },
         }, -- pickers
-        defaults = {
-            mappings = {
-                i = {
-                    ['<C-d>'] = require('telescope.actions').delete_buffer,
-                }, -- i
-                n = {
-                    ['d'] = require('telescope.actions').delete_buffer,
-                    ['q'] = require('telescope.actions').close,
-                }, -- n
-            } -- mappings
-        } -- defaults
+        --defaults = {
+        --    mappings = {
+        --        i = {
+        --            ['<C-d>'] = require('telescope.actions').delete_buffer,
+        --        }, -- i
+        --        n = {
+        --            ['d'] = require('telescope.actions').delete_buffer,
+        --            ['q'] = require('telescope.actions').close,
+        --        }, -- n
+        --    } -- mappings
+        --} -- defaults
     }, -- opts
 } -- top
 
