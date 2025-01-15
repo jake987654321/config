@@ -1,0 +1,8 @@
+gSnap@micahosborne
+emoji-copy@felipeftn
+ding@rastersoft.com
+tiling-assistant@ubuntu.com
+ubuntu-appindicators@ubuntu.com
+ubuntu-dock@ubuntu.com
+GPaste@gnome-shell-extensions.gnome.org
+color-picker@tuberry
