@@ -9,3 +9,6 @@ require("config.keymap")
 
 -- lsp setup 
 require("config.lsp")
+
+-- Document Mode
+require("document_mode")

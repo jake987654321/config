@@ -1,3 +1,8 @@
+-- Custom
+vim.api.nvim_set_keymap('n', 'gb', ':bnext<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', 'gB', ':bprevious<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>dm', ':lua ToggleDocumentMode()<CR>', { noremap = true, silent = true })
+
 -- NeoTree
 vim.keymap.set('n', '<Leader>E', ':Neotree toggle<CR>', { noremap = true, silent = true })
 
