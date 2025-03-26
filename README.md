@@ -5,7 +5,7 @@ Contains my config for apps I use (Vim and Tmux) and some helpful scripts.
 
 ```bash
 sudo apt update
-sudo apt install xclip tmux fuse
+sudo apt install xclip tmux libfuse2t64
 sudo apt install npm # Needed to install LSP servers
 mkdir -p ~/.local/share/appimages && cd ~/.local/share/appimages && wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux-x86_64.appimage && chmod +x nvim-linux-x86_64.appimage
 echo "alias vi=\"$HOME/.local/share/appimages/nvim-linux-x86_64.appimage\"" >> ~/.bash_aliases && echo "alias vim=\"$HOME/.local/share/appimages/nvim-linux-x86_64.appimage\"" >> ~/.bash_aliases
