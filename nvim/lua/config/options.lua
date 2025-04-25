@@ -15,6 +15,7 @@ vim.o.swapfile = false         -- Disable swap files
 vim.o.backup = false           -- Disable backup files
 vim.o.undofile = true          -- Enable persistent undo
 vim.o.updatetime = 300         -- Faster update time for better experience
+vim.o.colorcolumn = "80"       -- Color column.
 
 -- Search settings
 vim.o.ignorecase = true        -- Ignore case in search patterns

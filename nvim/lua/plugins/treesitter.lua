@@ -43,4 +43,7 @@ return {
         cmd = 'TSPlaygroundToggle', 
         opts = {},
     },
+    {
+        'nvim-treesitter/nvim-treesitter-context'
+    },
 }

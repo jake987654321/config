@@ -14,3 +14,17 @@ vim.keymap.set('n', '<Leader>b', builtin.buffers, { noremap = true, silent = tru
 vim.keymap.set('n', '<Leader>*', builtin.grep_string, { noremap = true, silent = true, desc = "Grep String" })
 vim.keymap.set('n', '<Leader>/', builtin.live_grep, { noremap = true, silent = true, desc = "Grep" })
 
+-- Code Companion
+vim.api.nvim_set_keymap('n', '<leader>cc', ':CodeCompanionChat toggle<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>cp', ':CodeCompanion <CR>', { noremap = true, silent = true })
+
+-- LSP 
+vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float)
+vim.keymap.set('n', '[E', function()
+  vim.diagnostic.goto_prev({ severity = vim.diagnostic.severity.ERROR })
+end, { desc = "Previous Error" })
+
+vim.keymap.set('n', ']E', function()
+  vim.diagnostic.goto_next({ severity = vim.diagnostic.severity.ERROR })
+end, { desc = "Next Error" })
+
