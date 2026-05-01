@@ -1,5 +1,5 @@
 # Config
-Contains my config for apps I use (nvVim and Tmux) and some helpful scripts.  Before beginning: 
+Contains my config for apps I use (nvim and Tmux) and some helpful scripts.  Before beginning: 
 
 ```bash
 sudo apt update
