@@ -19,13 +19,14 @@ This is needed for some plugins. Follow [this](https://nodejs.org/en/download). 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
 \. "$HOME/.nvm/nvm.sh"
 nvm install 22
+npm install -g tree-sitter-cli
 ```
 
 ## Setup NVIM
 
 ```bash
-mkdir -p ~/Applications/Nvim && cd ~/Applications/Nvim/ && wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux-x86_64.appimage && chmod +x nvim-linux-x86_64.appimage
-mkdir -p ~/.local/bin/ && cd ~/.local/bin/ && ln -s ~/Applications/Nvim/nvim-linux-x86_64.appimage nvim
+mkdir -p ~/Applications/ && cd ~/Applications/ && wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux-x86_64.appimage && chmod +x nvim-linux-x86_64.appimage
+mkdir -p ~/.local/bin/ && cd ~/.local/bin/ && ln -s ~/Applications/nvim-linux-x86_64.appimage nvim
  ```
 
 ## Install user config
